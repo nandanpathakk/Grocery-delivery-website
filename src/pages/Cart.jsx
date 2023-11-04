@@ -13,7 +13,7 @@ const Cart = () => {
   const totalAmount = useSelector((state) => state.cart.totalAmount);
   return (
     <Helmet title="Cart">
-      <CommonSection title="Cart" />
+      <CommonSection title="Your Cart" />
       <section>
         <Container>
           <Row>
@@ -35,7 +35,7 @@ const Cart = () => {
 
               <div className="mt-4">
                 <h6>
-                  Subtotal: $
+                  Subtotal: ₹
                   <span className="cart__subtotal">{totalAmount}</span>
                 </h6>
                 <p>Taxes and shipping will calculate at checkout</p>

@@ -27,7 +27,7 @@ const Pizzas = () => {
   };
 
   return (
-    <Helmet title="All Pizzas">
+    <Helmet title="Products">
       <Container>
         <Row>
           {displayPage.map((item) => (

@@ -5,7 +5,7 @@
 }
 
 .cart__item:hover {
-  background-color: rgba(230, 230, 230, 0.994);
+  background-color: rgba(0, 128, 0, 0.103);
   cursor: pointer;
 }
 
@@ -21,13 +21,14 @@
 .cart__product-price span {
   font-size: 0.9rem;
   font-weight: 600;
-  color: #df2020;
+  color: green;
 }
 
 .increase__decrease-btn {
-  background: #fde4e4;
+  background: rgba(0, 128, 0, 0.76);
   padding: 2px 5px;
   border-radius: 5px;
+  color: white;
 }
 
 .increase__btn,
