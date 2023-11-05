@@ -24,22 +24,23 @@ import product_07_image_01 from "../images/product_6.jpg";
 import product_07_image_02 from "../images/product_6.jpg";
 import product_07_image_03 from "../images/product_6.jpg";
 
+import product_08_image_01 from "../images/product_7.jpg";
+import product_08_image_02 from "../images/product_7.jpg";
+import product_08_image_03 from "../images/product_7.jpg";
+
+
+import product_09_image_01 from "../images/product_8.jpg";
+import product_09_image_02 from "../images/product_8.jpg";
+import product_09_image_03 from "../images/product_8.jpg";
+
+import product_10_image_01 from "../images/product_9.jpg";
+import product_10_image_02 from "../images/product_9.jpg";
+import product_10_image_03 from "../images/product_9.jpg";
+
 
 const products = [
-  // {
-  //   id: "01",
-  //   title: "Chicken Burger",
-  //   price: 24.0,
-  //   image01: product_01_image_01,
-  //   image02: product_01_image_02,
-  //   image03: product_01_image_03,
-  //   category: "Burger",
-
-  //   desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque. ",
-  // },
-
   {
-    id: "02",
+    id: "01",
     title: "KurKure Solid Masti",
     price: 10,
     image01: product_02_image_01,
@@ -51,7 +52,7 @@ const products = [
   },
 
   {
-    id: "03",
+    id: "02",
     title: "Crunchex",
     price: 10,
     image01: product_03_image_01,
@@ -63,7 +64,7 @@ const products = [
   },
 
   {
-    id: "04",
+    id: "03",
     title: "Simply Salted",
     price: 10.0,
     image01: product_04_image_01,
@@ -76,7 +77,7 @@ const products = [
 
 
   {
-    id: "07",
+    id: "04",
     title: "Lays Cream & Onion",
     price: 20.0,
     image01: product_05_image_02,
@@ -88,7 +89,7 @@ const products = [
   },
 
   {
-    id: "08",
+    id: "05",
     title: "Cheetos Chess Puffs",
     price: 30.0,
     image01: product_06_image_02,
@@ -100,7 +101,7 @@ const products = [
   },
 
   {
-    id: "09",
+    id: "06",
     title: "Cornitos Nacho Crisps",
     price: 40.0,
     image01: product_07_image_02,
@@ -110,6 +111,37 @@ const products = [
     
     desc: "If cheese is your favourite go-to comfort ingredient, then you’ll be licking your fingers off when you taste our cheesylicious Cheese & Herbs Nacho Crisps. Get cheesy with this pack of 3! Cornitos Cheese & Herbs Nachos has amazing flavour, a unique combination of Cheddar Cheese and Cool Italian Herbs. Cornitos Nacho Chips Cheese & Herbs 55g X 3 Pack Combo has 3 pcs of 55 g cheese and herbs nacho packs.",
   },
+
+  {
+    id: "7",
+    title: "Crispy Potato Chips",
+    price: 75,
+    image01: product_08_image_01,
+    image02: product_08_image_02,
+    image03: product_08_image_03,
+    category: "Snacks",
+    desc: "Irresistible potato chips with a satisfying crunch, perfect for snacking."
+},
+ { 
+    id: "8",
+    title: "Fresh Strawberries",
+    price: 100,
+    image01: product_09_image_01,
+    image02: product_09_image_02,
+    image03: product_09_image_03,
+    category: "Fruits",
+    desc: "Sweet and juicy strawberries, a delightful addition to your breakfast or desserts."
+},
+{
+    id: "9",
+    title: "Creamy Peanut Butter",
+    price: 45,
+    image01: product_10_image_01,
+    image02: product_10_image_02,
+    image03: product_10_image_03,
+    category: "Spreads",
+    desc: "Smooth and creamy peanut butter, perfect for your sandwiches or as a dip."
+}
 
 ];
 
