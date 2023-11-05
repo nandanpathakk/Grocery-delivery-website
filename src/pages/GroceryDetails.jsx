@@ -16,7 +16,7 @@ import ProductCard from "../components/UI/product-card/ProductCard";
 
 
 
-const PizzaDetails = () => {
+const GroceryDetails = () => {
   const { id } = useParams();
   const dispatch = useDispatch();
   const [isUpdateNotificationDisplayed, setIsUpdateNotificationDisplayed] = useState(false);
@@ -134,4 +134,4 @@ const PizzaDetails = () => {
   );
 };
 
-export default PizzaDetails;
+export default GroceryDetails;

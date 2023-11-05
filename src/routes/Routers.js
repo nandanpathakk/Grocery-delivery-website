@@ -2,8 +2,8 @@ import React from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
 
 import Home from "../pages/Home";
-import Pizzas from "../pages/Pizzas";
-import PizzaDetails from "../pages/PizzaDetails";
+import Pizzas from "../pages/Grocery";
+import PizzaDetails from "../pages/GroceryDetails";
 import Cart from "../pages/Cart";
 import Checkout from "../pages/Checkout";
 

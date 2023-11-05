@@ -8,7 +8,7 @@ import Helmet from "../components/Helmet/Helmet";
 import ReactPaginate from "react-paginate";
 import "../styles/pagination.css";
 
-const Pizzas = () => {
+const Grocery = () => {
   const [pageNumber, setPageNumber] = useState(0);
 
   const searchedProduct = products;
@@ -57,4 +57,4 @@ const Pizzas = () => {
   );
 };
 
-export default Pizzas;
+export default Grocery;

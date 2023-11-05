@@ -1,3 +1,4 @@
+// it will change the text displayed on the browser's tab according to the page on which you are. 
 import React from "react";
 
 const Helmet = (props) => {

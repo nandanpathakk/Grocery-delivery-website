@@ -1,3 +1,4 @@
+//items in the side-cart menu
 import React from "react";
 import { ListGroupItem } from "reactstrap";
 import { useNavigate } from "react-router-dom";
