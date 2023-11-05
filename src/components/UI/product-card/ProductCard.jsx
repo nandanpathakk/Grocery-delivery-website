@@ -2,15 +2,13 @@ import React from "react";
 
 import "../../../styles/product-card.css";
 
-// import productImg from "../../../assets/images/product_2.1.jpg";
-
 import { useDispatch } from "react-redux";
 import { cartActions } from "../../../store/shopping-cart/cartSlice";
 
 import { Link } from "react-router-dom";
 
 const ProductCard = (props) => {
-  const { id, title, image01, price, extraIngredients } = props.item;
+  const { id, title, image01, price } = props.item;
   const dispatch = useDispatch();
 
   const addToCart = () => {
@@ -19,8 +17,7 @@ const ProductCard = (props) => {
         id,
         title,
         image01,
-        price,
-        extraIngredients
+        price
       })
     );
   };
@@ -30,7 +27,7 @@ const ProductCard = (props) => {
       <div className="product__content">
         <img className="product__img w-50" src={image01} alt="Grocery" />
         <h5>
-          <Link to={`/pizzas/${id}`}>{title}</Link>
+          <Link to={`/groceryDetails/${id}`}>{title}</Link>
         </h5>
       </div>
       <div className="d-flex flex-column align-items-center justify-content-between">

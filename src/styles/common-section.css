@@ -1,7 +1,6 @@
+/*this is the common section between the header and footer*/
 .common__section {
   background: fcfcfc;
-    /* url("../assets/images/pizza.png"); */
-
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

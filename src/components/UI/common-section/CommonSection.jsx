@@ -1,3 +1,4 @@
+// this is the common section between the header and footer
 import React from "react";
 import { Container } from "reactstrap";
 import "../../../styles/common-section.css";

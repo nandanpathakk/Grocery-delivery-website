@@ -17,7 +17,7 @@ const nav__links = [
   },
   {
     display: "Grocery",
-    path: "/pizzas",
+    path: "/grocery",
   },
   {
     display: "Cart",

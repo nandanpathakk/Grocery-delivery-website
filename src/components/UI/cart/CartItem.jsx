@@ -37,13 +37,13 @@ const CartItem = ({ item, onClose }) => {
     event.stopPropagation();
   };
 
-  const handlePizzaSelection = () =>  {
-    navigate(`/pizzas/${id}`);
+  const handlegrocerySelection = () =>  {
+    navigate(`/grocery/${id}`);
     onClose(); 
   }
 
   return (
-    <ListGroupItem className="border-0 cart__item" onClick={handlePizzaSelection}>
+    <ListGroupItem className="border-0 cart__item" onClick={handlegrocerySelection}>
       <div className="cart__item-info d-flex gap-4">
         <img src={image01} alt="product-img" />
 
