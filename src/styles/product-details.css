@@ -31,7 +31,7 @@
 
 .category span {
   padding: 5px 10px;
-  background: #fde4e4;
+  background: rgba(1, 151, 1, 0.199);
   color: #212245;
   border-radius: 5px;
 }
@@ -46,7 +46,7 @@
 }
 
 .description {
-  color: #df2020;
+  color: green;
 }
 
 .img__item {
